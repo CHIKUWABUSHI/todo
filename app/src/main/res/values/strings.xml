@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ToDoリスト</string>
+    <string name="tv_title_list">タスク管理</string>
+    <string name="tv_title_edit">タスク編集画面</string>
+    <string name="tv_title_insert">タスク登録画面</string>
+    <string name="tv_name">タスク名:</string>
+    <string name="tv_deadline">期限:</string>
+    <string name="tv_done">タスクステータス:</string>
+    <string name="status_ok">完了</string>
+    <string name="status_ng">未完了</string>
+    <string name="btn_new">新規</string>
+    <string name="tv_note">詳細:</string>
+    <string name="btn_save">更新</string>
+    <string name="btn_insert">登録</string>
+    <string name="btn_delete">削除</string>
+    <string name="msg_input_title">タイトルを入力してください。</string>
+    <string name="dlg_delete_title">確認ダイアログ</string>
+    <string name="dlg_delete_msg">本当に削除しますか?</string>
+    <string name="dlg_delete_delete">削除</string>
+    <string name="dlg_delete_cancel">キャンセル</string>
+</resources>

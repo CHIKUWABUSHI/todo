@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnSearch"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="検索"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom"/>
+
+    <item
+        android:id="@+id/btnNew"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/btn_new"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/btnSortOkTask"
+        android:title="未完了のタスク"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/btnSortNgTask"
+        android:title="完了したタスク"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/btnSortAll"
+        android:title="全てのデータを表示"
+        app:showAsAction="never"/>
+</menu>
